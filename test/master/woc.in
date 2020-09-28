@@ -1,0 +1,3 @@
+// Slave configuration
+slave_exec_path = singularity
+slave_exec_args = run -B .:/opt/slave/results ../slave_container/slave_in_container.simg
